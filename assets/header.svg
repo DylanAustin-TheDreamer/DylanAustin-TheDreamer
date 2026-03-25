@@ -1,0 +1,32 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Dylan Austin banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)" rx="24" />
+
+  <circle cx="1040" cy="90" r="140" fill="#ffffff" fill-opacity="0.08" />
+  <circle cx="980" cy="220" r="110" fill="#ffffff" fill-opacity="0.08" />
+  <circle cx="180" cy="40" r="80" fill="#ffffff" fill-opacity="0.08" />
+
+  <path d="M40 220 H1160" stroke="url(#line)" stroke-width="2" />
+  <path d="M40 255 H960" stroke="url(#line)" stroke-width="2" />
+
+  <text x="64" y="130" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700">
+    Dylan Austin
+  </text>
+  <text x="64" y="178" fill="#dbeafe" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="500">
+    Full-Stack Developer | Building web and desktop experiences
+  </text>
+  <text x="64" y="250" fill="#bfdbfe" font-family="Consolas, Menlo, monospace" font-size="20">
+    HTML | CSS | JavaScript | Python | Django | React Native
+  </text>
+</svg>
